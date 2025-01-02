@@ -1,2 +1,38 @@
-# wezterm-dotfiles
-dotfiles for wezterm configuration
+## What is this?
+dotfiles for wezterm configuration for myself.
+
+**wezterm:**  
+https://wezfurlong.org/wezterm/index.html
+
+## Prerequisites
+> [!WARNING]
+> This is just a memo for myself.  
+
+Make sure you can access takitaki7474 github.
+
+
+**Register public key**  
+```
+cd ~
+mkdir .ssh
+cd .ssh
+ssh-keygen -t rsa -b 4096 -C <gmail account>
+
+## Here, check the public key and register it on takitaki7474 github
+cat id_rsa.pub
+```
+
+**Clone this repository**  
+```
+git clone <ssh path for this repository>
+```
+
+## Settings
+
+**Install wezterm and the necessary packages and configure various settings**  
+
+```
+cd wezterm-dotfiles
+chmod u+x ./setup.sh
+./setup.sh
+```
