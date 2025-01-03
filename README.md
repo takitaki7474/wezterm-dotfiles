@@ -36,3 +36,8 @@ cd wezterm-dotfiles
 chmod u+x ./setup.sh
 ./setup.sh
 ```
+
+## Reference
+
+**starship**
+https://starship.rs/
