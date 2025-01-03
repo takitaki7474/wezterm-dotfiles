@@ -47,3 +47,5 @@ https://github.com/zplug/zplug
 https://github.com/zsh-users/zsh-syntax-highlighting
 **zsh-autosuggestions**
 https://github.com/zsh-users/zsh-autosuggestions
+**fzf**
+https://github.com/junegunn/fzf
