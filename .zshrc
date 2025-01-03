@@ -4,6 +4,7 @@ alias gb='git branch'
 alias gdiff='git diff'
 alias gc='git commit'
 alias ga='git add'
+alias gp='git push'
 
 # zplug
 export ZPLUG_HOME=$(brew --prefix zplug)
