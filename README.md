@@ -41,3 +41,9 @@ chmod u+x ./setup.sh
 
 **starship**
 https://starship.rs/
+**zplug**
+https://github.com/zplug/zplug
+**zsh-syntax-highlighting**
+https://github.com/zsh-users/zsh-syntax-highlighting
+**zsh-autosuggestions**
+https://github.com/zsh-users/zsh-autosuggestions

@@ -10,6 +10,8 @@ fi
 packages=(
     wezterm
     starship
+    zplug
+    fzf
 )
 
 for package in "${packages[@]}"; do
