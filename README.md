@@ -39,13 +39,17 @@ chmod u+x ./setup.sh
 
 ## Reference
 
-**starship**
-https://starship.rs/
-**zplug**
-https://github.com/zplug/zplug
-**zsh-syntax-highlighting**
-https://github.com/zsh-users/zsh-syntax-highlighting
-**zsh-autosuggestions**
-https://github.com/zsh-users/zsh-autosuggestions
-**fzf**
-https://github.com/junegunn/fzf
+**starship**  
+https://starship.rs/  
+
+**zplug**  
+https://github.com/zplug/zplug  
+
+**zsh-syntax-highlighting**  
+https://github.com/zsh-users/zsh-syntax-highlighting  
+
+**zsh-autosuggestions**  
+https://github.com/zsh-users/zsh-autosuggestions  
+
+**fzf**  
+https://github.com/junegunn/fzf  
