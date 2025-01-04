@@ -6,6 +6,9 @@ alias gc='git commit'
 alias ga='git add'
 alias gp='git push'
 
+# export path
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
 # zplug
 export ZPLUG_HOME=$(brew --prefix zplug)
 source $ZPLUG_HOME/init.zsh
@@ -27,7 +30,7 @@ HISTFILE=$HOME/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
-#fzf
+# fzf
 export FZF_HOME=$(brew --prefix fzf)
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 echo "y" | $FZF_HOME/install

@@ -18,8 +18,11 @@ mkdir .ssh
 cd .ssh
 ssh-keygen -t rsa -b 4096 -C <gmail account>
 
-## Here, check the public key and register it on takitaki7474 github
+## Here, check the public key and register it on takitaki7474 github.
 cat id_rsa.pub
+
+## add this key to ssh key chain.
+ssh-add ~/.ssh/id_rsa
 ```
 
 **Clone this repository**  

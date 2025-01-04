@@ -12,6 +12,7 @@ packages=(
     starship
     zplug
     fzf
+    nodebrew
 )
 
 for package in "${packages[@]}"; do
@@ -22,6 +23,12 @@ for package in "${packages[@]}"; do
         echo "$package is already installed."
     fi
 done
+
+# nodebrew setup
+echo "Setting nodebrew..."
+if [ ! -e "$HOME/.nodebrew" ]; then
+    nodebrew setup
+fi
 
 # copy ./wezterm.lua to home directory
 echo "Copying wezterm.lua..."
