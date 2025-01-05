@@ -13,6 +13,7 @@ packages=(
     zplug
     fzf
     nodebrew
+    jq
 )
 
 for package in "${packages[@]}"; do
