@@ -14,6 +14,7 @@ packages=(
     fzf
     nodebrew
     jq
+    mysql
 )
 
 for package in "${packages[@]}"; do
